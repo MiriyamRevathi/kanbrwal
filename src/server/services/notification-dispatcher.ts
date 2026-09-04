@@ -121,3 +121,5 @@ export const globalNotificationDispatcher = new NotificationDispatcherService();
 // Feature Manual Notifications
 
 // Feature Manual Notifications
+
+// Role-restricted manual announcement dispatcher with real-time SSE streaming
