@@ -165,3 +165,5 @@ export class EnterpriseAnalyticsEngine {
 }
 
 export const globalAnalyticsEngine = new EnterpriseAnalyticsEngine();
+
+// Earned Value Management (EVM) and resource workload calculation engine
