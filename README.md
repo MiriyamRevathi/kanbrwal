@@ -9,9 +9,7 @@ Kanbrawl Enterprise is a commercial-grade, multi-role project management web pla
 - **Web-First Architecture**: Intuitive, high-density web application accessible directly in any modern browser with zero CLI requirement.
 - **Strict No-Database Design**: 100% local JSON file persistence (`data/`) utilizing atomic temporary file writes and sync renames to guarantee data integrity without database overhead.
 - **Role-Based Access Control (RBAC)**: Enforced both on the backend REST layer and dynamic frontend UI across 6 standard enterprise roles (*Super Admin, Organization Admin, Project Manager, Team Lead, Employee, Viewer*).
-- **AI Agent Integration via MCP**: Native HTTP (`/mcp`) and stdio transport exposing 12 granular project and task management tools for AI agents.
 - **Instant Real-Time Synchronization**: Backend mutation events are broadcasted via Server-Sent Events (`/events`) so changes made by humans or AI agents reflect instantly across all open browser tabs without manual page reload.
-- **Local Machine Learning Risk Engine**: Deterministic multi-factor risk assessment analyzing overdue tasks, blocker ratios, P0 pending items, deadline pressure, and labor hour variance to categorize project risk (Low, Medium, High).
 - **Strict No-Icon Enterprise UI**: Purpose-built typography, spacing, status badges, metric tiles, and text-based controls providing a professional commercial aesthetic without third-party icon dependencies.
 - **Data Export**: Immediate extraction of projects, tasks, timesheets, and audit trails in CSV and JSON formats.
 
@@ -168,8 +166,6 @@ npm test
 
 ```
 .
-├── Dockerfile                  # Production container definition
-├── docker-compose.yml          # Compose specification with volume persistence
 ├── package.json                # Project dependencies and lifecycle scripts
 ├── package-lock.json           # Deterministic package lockfile
 ├── tsconfig.json               # TypeScript compiler options
@@ -222,6 +218,3 @@ npm test
 
 ---
 
-## 10. License
-
-MIT License.
