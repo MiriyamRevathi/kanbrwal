@@ -104,3 +104,5 @@ export function forbidViewerMutation(
 // Feature RBAC enforcement
 
 // Feature RBAC enforcement
+
+// Enforce 5-role RBAC security matrix (org_admin, project_manager, team_lead, employee, viewer)
