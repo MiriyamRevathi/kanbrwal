@@ -396,3 +396,5 @@ export class CalendarView extends LitElement {
 // Feature Enterprise Calendar
 
 // Feature Enterprise Calendar
+
+// Interactive monthly/weekly task calendar component with creation modal
