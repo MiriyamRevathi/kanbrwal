@@ -1,0 +1,11 @@
+{
+  "organizationName": "Nexus Enterprise Solutions",
+  "allowSelfRegistration": false,
+  "defaultTheme": "dark",
+  "sessionTimeoutHours": 24,
+  "mlRiskThresholds": {
+    "high": 65,
+    "medium": 35
+  },
+  "lastSeedReset": "2026-09-02T06:32:00.403Z"
+}

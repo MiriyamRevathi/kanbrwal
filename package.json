@@ -1,0 +1,114 @@
+{
+  "name": "kanbrawl",
+  "version": "1.0.0",
+  "description": "A minimal live kanban board for AI agents, powered by MCP",
+  "type": "module",
+  "license": "UNLICENSED",
+  "author": "sinedied",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinedied/kanbrawl.git"
+  },
+  "homepage": "https://github.com/sinedied/kanbrawl",
+  "bugs": {
+    "url": "https://github.com/sinedied/kanbrawl/issues"
+  },
+  "keywords": [
+    "kanban",
+    "board",
+    "mcp",
+    "ai",
+    "agents",
+    "model-context-protocol"
+  ],
+  "main": "dist/server/index.js",
+  "bin": {
+    "kanbrawl": "bin/cli.js",
+    "kb": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "dist/"
+  ],
+  "scripts": {
+    "build:server": "tsc",
+    "build:client": "vite build src/client",
+    "build": "npm run build:server && npm run build:client",
+    "build:ext": "cd src/extension && npm install && node esbuild.mjs --production",
+    "watch:ext": "cd src/extension && npm install && node esbuild.mjs --watch",
+    "dev:server": "tsx watch src/server/index.ts",
+    "dev:client": "vite dev src/client",
+    "dev": "concurrently -k \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "node dist/server/index.js",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist",
+    "release:check": "semantic-release --dry-run"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "release": {
+    "extends": "semantic-release-npm-github",
+    "branch": "main"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.1",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "commander": "^14.0.3",
+    "express": "^5.1.0",
+    "lit": "^3.2.1",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.6"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "rules": {
+      "unicorn/prevent-abbreviations": [
+        "error",
+        {
+          "allowList": {
+            "req": true,
+            "res": true,
+            "e": true,
+            "dir": true
+          }
+        }
+      ],
+      "@typescript-eslint/naming-convention": "off",
+      "@typescript-eslint/member-ordering": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "@typescript-eslint/no-unsafe-return": "off",
+      "@typescript-eslint/no-unsafe-call": "off",
+      "@typescript-eslint/no-unsafe-argument": "off",
+      "import-x/no-unassigned-import": "off",
+      "no-return-assign": "off"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "@types/supertest": "^6.0.3",
+    "concurrently": "^9.1.2",
+    "eslint-config-xo-typescript": "^9.0.0",
+    "semantic-release": "^25.0.3",
+    "semantic-release-npm-github": "^6.0.0",
+    "supertest": "^7.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18",
+    "xo": "^1.2.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

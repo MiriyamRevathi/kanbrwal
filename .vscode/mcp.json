@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "kanbrawl": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "kanbrawl",
+        "start",
+        "--stdio"
+      ]
+    }
+  }
+}

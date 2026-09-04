@@ -1,0 +1,608 @@
+[
+  {
+    "id": "act-bb0d2208",
+    "timestamp": "2026-09-02T19:17:57.054Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-c637903a",
+    "timestamp": "2026-09-02T19:17:50.100Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged out."
+  },
+  {
+    "id": "act-4fc52746",
+    "timestamp": "2026-09-02T19:16:54.533Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged into the system."
+  },
+  {
+    "id": "act-5b6a01e5",
+    "timestamp": "2026-09-02T16:41:15.034Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "David Chen logged out."
+  },
+  {
+    "id": "act-d427d4f6",
+    "timestamp": "2026-09-02T16:40:03.894Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-06db17ad",
+    "timestamp": "2026-09-02T16:40:00.158Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged out."
+  },
+  {
+    "id": "act-a8ef4050",
+    "timestamp": "2026-09-02T16:39:52.010Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "notification_sent",
+    "targetType": "notification",
+    "targetId": "notif-7d6c079e",
+    "targetTitle": "xfghjkl",
+    "details": "Eleanor Sterling (org_admin) sent manual notification \"xfghjkl\"."
+  },
+  {
+    "id": "act-ac03b4b9",
+    "timestamp": "2026-09-02T16:39:17.660Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged into the system."
+  },
+  {
+    "id": "act-f0f6efdd",
+    "timestamp": "2026-09-02T16:04:32.639Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-d1f04701",
+    "timestamp": "2026-09-02T16:04:05.028Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-160c9d12",
+    "timestamp": "2026-09-02T16:04:00.858Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-29ee15a7",
+    "timestamp": "2026-09-02T16:03:19.551Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-3882b52c",
+    "timestamp": "2026-09-02T16:03:11.255Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged out."
+  },
+  {
+    "id": "act-366fbab8",
+    "timestamp": "2026-09-02T16:02:25.766Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged into the system."
+  },
+  {
+    "id": "act-91b87a51",
+    "timestamp": "2026-09-02T16:02:19.273Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged out."
+  },
+  {
+    "id": "act-f52f7089",
+    "timestamp": "2026-09-02T16:01:20.902Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "time_logged",
+    "targetType": "timesheet",
+    "targetId": "ts-0a42aa41",
+    "targetTitle": "E-Commerce Platform",
+    "details": "Eleanor Sterling logged 5h on E-Commerce Platform."
+  },
+  {
+    "id": "act-ccbbc9fd",
+    "timestamp": "2026-09-02T16:00:04.954Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged into the system."
+  },
+  {
+    "id": "act-f63565c1",
+    "timestamp": "2026-09-02T10:27:39.854Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged out."
+  },
+  {
+    "id": "act-e321e913",
+    "timestamp": "2026-09-02T10:22:39.026Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged into the system."
+  },
+  {
+    "id": "act-a13f5014",
+    "timestamp": "2026-09-02T10:22:04.727Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Alexander Vance logged out."
+  },
+  {
+    "id": "act-ca026bf6",
+    "timestamp": "2026-09-02T10:20:59.643Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Alexander Vance logged into the system."
+  },
+  {
+    "id": "act-d467575a",
+    "timestamp": "2026-09-02T10:20:56.516Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged out."
+  },
+  {
+    "id": "act-67677581",
+    "timestamp": "2026-09-02T10:20:47.037Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Eleanor Sterling logged into the system."
+  },
+  {
+    "id": "act-cd47b7cd",
+    "timestamp": "2026-09-02T10:20:06.291Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-b5f692c6",
+    "timestamp": "2026-09-02T10:08:22.993Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-b54253ce",
+    "timestamp": "2026-09-02T09:43:56.137Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Alexander Vance logged out."
+  },
+  {
+    "id": "act-0e0367be",
+    "timestamp": "2026-09-02T09:40:52.896Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Alexander Vance logged into the system."
+  },
+  {
+    "id": "act-b277d591",
+    "timestamp": "2026-09-02T08:40:01.188Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged out."
+  },
+  {
+    "id": "act-42a87968",
+    "timestamp": "2026-09-02T08:39:40.434Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged into the system."
+  },
+  {
+    "id": "act-cd9462c3",
+    "timestamp": "2026-09-02T08:39:35.361Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged out."
+  },
+  {
+    "id": "act-9137bc2e",
+    "timestamp": "2026-09-02T08:39:29.057Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged into the system."
+  },
+  {
+    "id": "act-1ceea8dd",
+    "timestamp": "2026-09-02T08:39:24.825Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-6ef54730",
+    "timestamp": "2026-09-02T08:37:38.433Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-e7113334",
+    "timestamp": "2026-09-02T08:27:40.891Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-bbebd375",
+    "timestamp": "2026-09-02T08:27:31.846Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-45156810",
+    "timestamp": "2026-09-02T08:27:23.050Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "David Chen logged out."
+  },
+  {
+    "id": "act-b2aeef42",
+    "timestamp": "2026-09-02T08:26:38.330Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-5529bba0",
+    "timestamp": "2026-09-02T08:26:23.881Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-c2dbbe8d",
+    "timestamp": "2026-09-02T08:25:11.950Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-cc8a533f",
+    "timestamp": "2026-09-02T07:19:23.469Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged out."
+  },
+  {
+    "id": "act-8d6956d1",
+    "timestamp": "2026-09-02T07:18:34.762Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Marcus Holloway logged into the system."
+  },
+  {
+    "id": "act-74c8a520",
+    "timestamp": "2026-09-02T07:18:25.586Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "David Chen logged out."
+  },
+  {
+    "id": "act-d60679c2",
+    "timestamp": "2026-09-02T07:17:57.487Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "login",
+    "targetType": "auth",
+    "details": "David Chen logged into the system."
+  },
+  {
+    "id": "act-321f1549",
+    "timestamp": "2026-09-02T07:17:53.032Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-43c22f83",
+    "timestamp": "2026-09-02T07:17:14.825Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-88298cb6",
+    "timestamp": "2026-09-02T07:17:11.735Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Alexander Vance logged out."
+  },
+  {
+    "id": "act-af074ec4",
+    "timestamp": "2026-09-02T07:17:04.895Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Alexander Vance logged into the system."
+  },
+  {
+    "id": "act-caf12ff3",
+    "timestamp": "2026-09-02T06:35:24.111Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-e8af1861",
+    "timestamp": "2026-09-02T06:35:18.732Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Alexander Vance logged out."
+  },
+  {
+    "id": "act-71ec1d69",
+    "timestamp": "2026-09-02T06:32:46.880Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged into the system."
+  },
+  {
+    "id": "act-94541204",
+    "timestamp": "2026-09-02T06:32:42.352Z",
+    "userId": "usr-viewer-rachel",
+    "userName": "Rachel Adams",
+    "userRole": "viewer",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Rachel Adams logged out."
+  },
+  {
+    "id": "act-81dc7a2e",
+    "timestamp": "2026-09-02T06:32:22.687Z",
+    "userId": "usr-viewer-rachel",
+    "userName": "Rachel Adams",
+    "userRole": "viewer",
+    "action": "login",
+    "targetType": "auth",
+    "details": "Rachel Adams logged into the system."
+  },
+  {
+    "id": "act-d3aea2d4",
+    "timestamp": "2026-09-02T06:32:17.551Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "logout",
+    "targetType": "auth",
+    "details": "Sarah Jenkins logged out."
+  },
+  {
+    "id": "act-1",
+    "timestamp": "2026-09-02T06:32:00.403Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "task_moved",
+    "targetType": "task",
+    "targetId": "task-ecom-102",
+    "targetTitle": "Real-time Redis Inventory Sync during Flash Sales",
+    "details": "Sarah Jenkins moved \"Real-time Redis Inventory Sync during Flash Sales\" from In Progress to Review."
+  },
+  {
+    "id": "act-2",
+    "timestamp": "2026-09-01T06:32:00.403Z",
+    "userId": "usr-emp-david",
+    "userName": "David Chen",
+    "userRole": "employee",
+    "action": "time_logged",
+    "targetType": "timesheet",
+    "targetId": "ts-101",
+    "targetTitle": "E-Commerce Platform",
+    "details": "David Chen logged 7.5 hours on Stripe & PayPal Gateway Integration."
+  },
+  {
+    "id": "act-3",
+    "timestamp": "2026-09-01T06:32:00.403Z",
+    "userId": "usr-pm-marcus",
+    "userName": "Marcus Holloway",
+    "userRole": "project_manager",
+    "action": "task_updated",
+    "targetType": "task",
+    "targetId": "task-hosp-201",
+    "targetTitle": "HL7 FHIR Patient Health Records Ingestion Pipeline",
+    "details": "Marcus Holloway updated risk level to HIGH and added vendor blocking notes."
+  },
+  {
+    "id": "act-4",
+    "timestamp": "2026-08-31T06:32:00.403Z",
+    "userId": "usr-super-admin",
+    "userName": "Alexander Vance",
+    "userRole": "super_admin",
+    "action": "user_created",
+    "targetType": "user",
+    "targetId": "usr-viewer-rachel",
+    "targetTitle": "Rachel Adams",
+    "details": "Alexander Vance provisioned stakeholder audit access for Rachel Adams (Viewer role)."
+  },
+  {
+    "id": "act-5",
+    "timestamp": "2026-08-31T06:32:00.403Z",
+    "userId": "usr-org-admin",
+    "userName": "Eleanor Sterling",
+    "userRole": "org_admin",
+    "action": "project_created",
+    "targetType": "project",
+    "targetId": "proj-campus",
+    "targetTitle": "College Management Portal",
+    "details": "Eleanor Sterling created project \"College Management Portal\" under global organization."
+  },
+  {
+    "id": "act-6",
+    "timestamp": "2026-08-30T06:32:00.403Z",
+    "userId": "usr-lead-sarah",
+    "userName": "Sarah Jenkins",
+    "userRole": "team_lead",
+    "action": "task_assigned",
+    "targetType": "task",
+    "targetId": "task-mbank-302",
+    "targetTitle": "Instant P2P Money Transfers with Fraud Heuristic Scoring",
+    "details": "Sarah Jenkins assigned task to David Chen."
+  }
+]

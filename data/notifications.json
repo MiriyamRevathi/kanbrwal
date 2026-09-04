@@ -1,0 +1,58 @@
+[
+  {
+    "id": "notif-7d6c079e",
+    "userId": "all",
+    "senderId": "usr-org-admin",
+    "senderName": "Eleanor Sterling",
+    "senderRole": "org_admin",
+    "title": "xfghjkl",
+    "message": "dszfxcghjn,mnb",
+    "type": "announcement",
+    "priority": "important",
+    "projectId": "proj-ecom",
+    "source": "manual",
+    "link": "/projects/proj-ecom",
+    "read": false,
+    "createdAt": "2026-09-02T16:39:52.004Z"
+  },
+  {
+    "id": "notif-1",
+    "userId": "usr-emp-david",
+    "title": "Task Assigned",
+    "message": "You have been assigned to \"Instant P2P Money Transfers with Fraud Heuristic Scoring\".",
+    "type": "info",
+    "link": "/tasks",
+    "read": false,
+    "createdAt": "2026-09-02T06:32:00.403Z"
+  },
+  {
+    "id": "notif-2",
+    "userId": "usr-pm-marcus",
+    "title": "Project Risk Alert",
+    "message": "Hospital Management System risk elevated to HIGH due to 3 overdue compliance tasks.",
+    "type": "alert",
+    "link": "/projects",
+    "read": false,
+    "createdAt": "2026-09-02T06:32:00.403Z"
+  },
+  {
+    "id": "notif-3",
+    "userId": "usr-lead-sarah",
+    "title": "Task Ready for Review",
+    "message": "\"Real-time Redis Inventory Sync during Flash Sales\" was moved to Review by David Chen.",
+    "type": "info",
+    "link": "/kanban",
+    "read": true,
+    "createdAt": "2026-09-01T06:32:00.403Z"
+  },
+  {
+    "id": "notif-4",
+    "userId": "all",
+    "title": "System Maintenance Notice",
+    "message": "Scheduled backup and data indexing completed successfully.",
+    "type": "success",
+    "link": "/dashboard",
+    "read": true,
+    "createdAt": "2026-08-30T06:32:00.403Z"
+  }
+]

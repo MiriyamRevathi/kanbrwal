@@ -1,0 +1,42 @@
+[
+  {
+    "id": "team-core",
+    "name": "Core Platform & Infrastructure",
+    "organizationId": "org-global",
+    "leadId": "usr-org-admin",
+    "leadName": "Eleanor Sterling",
+    "memberIds": [
+      "usr-org-admin",
+      "usr-super-admin"
+    ],
+    "description": "Responsible for core cloud runtime, security, microservices baseline, and identity.",
+    "createdAt": "2026-05-25T06:32:00.403Z"
+  },
+  {
+    "id": "team-apps",
+    "name": "Digital Products Team",
+    "organizationId": "org-global",
+    "leadId": "usr-lead-sarah",
+    "leadName": "Sarah Jenkins",
+    "memberIds": [
+      "usr-lead-sarah",
+      "usr-emp-david",
+      "usr-pm-marcus"
+    ],
+    "description": "Builds customer-facing web applications, mobile gateways, and checkout platforms.",
+    "createdAt": "2026-06-04T06:32:00.403Z"
+  },
+  {
+    "id": "team-data",
+    "name": "Data & Analytics Engineering",
+    "organizationId": "org-global",
+    "leadId": "usr-lead-sarah",
+    "leadName": "Sarah Jenkins",
+    "memberIds": [
+      "usr-dev-priya",
+      "usr-emp-david"
+    ],
+    "description": "Maintains transaction pipelines, ML telemetry models, and healthcare audit pipelines.",
+    "createdAt": "2026-06-14T06:32:00.403Z"
+  }
+]

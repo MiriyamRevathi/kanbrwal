@@ -1,0 +1,104 @@
+[
+  {
+    "id": "proj-ecom",
+    "name": "E-Commerce Platform",
+    "key": "ECOM",
+    "description": "Next-generation omni-channel checkout, order management, payment integration, and inventory sync.",
+    "organizationId": "org-global",
+    "managerId": "usr-pm-marcus",
+    "managerName": "Marcus Holloway",
+    "teamIds": [
+      "team-apps"
+    ],
+    "status": "in_progress",
+    "priority": "P0",
+    "riskLevel": "medium",
+    "riskScore": 48,
+    "riskFactors": [
+      "Payment gateway sandbox certification delayed",
+      "High dependency count on auth microservice"
+    ],
+    "startDate": "2026-07-19T06:32:00.403Z",
+    "targetDate": "2026-09-27T06:32:00.403Z",
+    "budgetHours": 640,
+    "createdAt": "2026-07-19T06:32:00.403Z",
+    "updatedAt": "2026-09-01T06:32:00.403Z"
+  },
+  {
+    "id": "proj-hosp",
+    "name": "Hospital Management System",
+    "key": "HOSP",
+    "description": "HIPAA-compliant Electronic Health Records (EHR), outpatient scheduling, triage queue, and pharmacy inventory.",
+    "organizationId": "org-global",
+    "managerId": "usr-pm-marcus",
+    "managerName": "Marcus Holloway",
+    "teamIds": [
+      "team-core",
+      "team-data"
+    ],
+    "status": "in_progress",
+    "priority": "P0",
+    "riskLevel": "high",
+    "riskScore": 78,
+    "riskFactors": [
+      "3 overdue compliance validation tasks",
+      "HL7 FHIR integration blocked by vendor certificate"
+    ],
+    "startDate": "2026-07-04T06:32:00.403Z",
+    "targetDate": "2026-09-12T06:32:00.403Z",
+    "budgetHours": 920,
+    "createdAt": "2026-07-04T06:32:00.403Z",
+    "updatedAt": "2026-09-02T06:32:00.403Z"
+  },
+  {
+    "id": "proj-mbank",
+    "name": "Mobile Banking Application",
+    "key": "MBANK",
+    "description": "Retail banking iOS and Android solution featuring biometric auth, instant P2P transfers, and card controls.",
+    "organizationId": "org-global",
+    "managerId": "usr-pm-marcus",
+    "managerName": "Marcus Holloway",
+    "teamIds": [
+      "team-apps"
+    ],
+    "status": "in_progress",
+    "priority": "P1",
+    "riskLevel": "low",
+    "riskScore": 22,
+    "riskFactors": [
+      "Velocity on track",
+      "Biometric auth module passed security review ahead of schedule"
+    ],
+    "startDate": "2026-08-03T06:32:00.403Z",
+    "targetDate": "2026-10-17T06:32:00.403Z",
+    "budgetHours": 500,
+    "createdAt": "2026-08-03T06:32:00.403Z",
+    "updatedAt": "2026-08-31T06:32:00.403Z"
+  },
+  {
+    "id": "proj-campus",
+    "name": "College Management Portal",
+    "key": "CAMPUS",
+    "description": "Integrated student information system with course enrollment, grading workflows, tuition billing, and alumni portal.",
+    "organizationId": "org-global",
+    "managerId": "usr-pm-marcus",
+    "managerName": "Marcus Holloway",
+    "teamIds": [
+      "team-apps",
+      "team-data"
+    ],
+    "status": "planning",
+    "priority": "P2",
+    "riskLevel": "low",
+    "riskScore": 15,
+    "riskFactors": [
+      "Discovery phase complete",
+      "Requirements signed off by academic council"
+    ],
+    "startDate": "2026-08-23T06:32:00.403Z",
+    "targetDate": "2026-12-01T06:32:00.403Z",
+    "budgetHours": 420,
+    "createdAt": "2026-08-23T06:32:00.403Z",
+    "updatedAt": "2026-08-30T06:32:00.403Z"
+  }
+]
