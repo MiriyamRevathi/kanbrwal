@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Backlog",
+    "sortBy": "priority",
+    "sortOrder": "asc"
+  },
+  {
+    "name": "To Do",
+    "sortBy": "priority",
+    "sortOrder": "asc"
+  },
+  {
+    "name": "In Progress",
+    "sortBy": "updated",
+    "sortOrder": "desc"
+  },
+  {
+    "name": "Blocked",
+    "sortBy": "priority",
+    "sortOrder": "asc"
+  },
+  {
+    "name": "Review",
+    "sortBy": "updated",
+    "sortOrder": "desc"
+  },
+  {
+    "name": "Done",
+    "sortBy": "updated",
+    "sortOrder": "desc"
+  }
+]

@@ -1,0 +1,18 @@
+services:
+  kanbrawl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kanbrawl-enterprise
+    restart: unless-stopped
+    ports:
+      - "8431:8431"
+    environment:
+      - PORT=8431
+      - NODE_ENV=production
+    volumes:
+      - kanbrawl-data:/app/data
+
+volumes:
+  kanbrawl-data:
+    driver: local
